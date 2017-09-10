@@ -98,9 +98,9 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-input[type=submit] {
+button {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #44A1A0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -109,16 +109,19 @@ input[type=submit] {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #247B7B;
+}
+
 fieldset {
-
+    padding: 14px 20px;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
-}
 
-.form {
+
+form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    font-family: 'Lato', sans-serif;
 }
