@@ -59,23 +59,28 @@
     <div id="centre" class="form">
         <h2>Book Now</h2>
         <br>
-        <form action="https://titan.csit.rmit.edu.au/~e54061/wp/silverado-test.php" method="post">
-            <select name="movie">
-                <option value="AC">Baby Driver</option>
-                <option value="RC">The Big Sick</option>
-                <option value="CH">The Emoji Movie</option>
-                <option value="AF">The Square</option>
-            </select>
-            <input type="text" name="session" maxlength="6" pattern="[A-Z]{3}-[0-9]{2}" value="DAY-HR">
-            <input type="number" name="seats[SF]" min="0" max="10" value="0">
-            <input type="number" name="seats[SP]" min="0" max="10" value="0">
-            <input type="number" name="seats[SC]" min="0" max="10" value="0">
-            <input type="number" name="seats[FA]" min="0" max="10" value="0">
-            <input type="number" name="seats[FC]" min="0" max="10" value="0">
-            <input type="number" name="seats[BA]" min="0" max="10" value="0">
-            <input type="number" name="seats[BF]" min="0" max="10" value="0">
-            <input type="number" name="seats[BC]" min="0" max="10" value="0">
-            <button type="submit">Submit</button>
+        <form method="post" action="https://titan.csit.rmit.edu.au/~e54061/wp/silverado-test.php">
+            <fieldset><legend>Booking Form</legend>
+                <p><label>Movie</label><select name="TBA"></select></p>
+                <p><label>Session</label><select name="TBA"></select></p>
+                <fieldset><legend>Seats</legend>
+                    <fieldset><legend>Standard</legend>
+                        <p><label>Adult</label><select name="TBA"></select></p>
+                        <p><label>Concession</label><select name="TBA"></select></p>
+                        <p><label>Child</label><select name="TBA"></select></p>
+                    </fieldset>
+                    <fieldset><legend>First Class</legend>
+                        <p><label>Adult</label><select name="TBA"></select></p>
+                        <p><label>Child</label><select name="TBA"></select></p>
+                    </fieldset>
+                    <fieldset><legend>Bean Bags</legend>
+                        <p><label>Adult</label><select name="TBA"></select></p>
+                        <p><label>Family</label><select name="TBA"></select></p>
+                        <p><label>Child</label><select name="TBA"></select></p>
+                    </fieldset>
+                </fieldset>
+                <p><button>Book</button></p>
+            </fieldset>
         </form>
     </div>
 </main>
