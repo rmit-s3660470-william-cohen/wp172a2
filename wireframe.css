@@ -70,7 +70,12 @@ li a:hover:not(.active) {
 .container {
     display: flex;
     justify-content: space-between;
+}
 
+.logo {
+    width:inherit;
+    margin: 0 auto;
+    display: block;
 }
 
 img {
