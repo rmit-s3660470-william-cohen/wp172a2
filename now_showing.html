@@ -31,8 +31,64 @@
 <main>
     <!-- Main stuff here -->
     <div id="centre">
-        <h2>Now Showing</h2>
+        <h2>Now Showing:</h2>
+        <br>
         <div class="container">
+            <div class="column">
+                <!-- Action Movie -->
+                <img src="movie_icons/BabyDriver.jpg" alt="Baby Driver"/>
+                <h2>Baby Driver</h2>
+                <h3>Showing:</h3>
+                <p>N/A</p>
+                <p>N/A</p>
+                <p>Wednesdays 9:00pm</p>
+                <p>Thursdays 9:00pm</p>
+                <p>Fridays 9:00pm</p>
+                <p>Saturday 9:00pm</p>
+                <p>Sunday 9:00pm</p>
+            </div>
+            <div class="column">
+                <!-- Kid's Movie -->
+                <img src="movie_icons/TheEmojiMovie.jpg" alt="The Emoji Movie"/>
+                <h2>The Emoji Movie</h2>
+                <h3>Showing:</h3>
+                <p>Monday 1:00pm</p>
+                <p>Tuesday 1:00pm</p>
+                <p>Wednesday 6:00pm</p>
+                <p>Thursday 6:00pm</p>
+                <p>Friday 6:00pm</p>
+                <p>Saturday 12:00pm</p>
+                <p>Saturday 12:00pm</p>
+            </div>
+            <div class="column">
+                <!-- Art/Foreign Movie-->
+                <img src="movie_icons/TheSquare.jpg" alt="The Square"/>
+                <h2>The Square</h2>
+                <h3>Showing:</h3>
+                <p>Monday 6:00pm</p>
+                <p>Tuesday 6:00pm</p>
+                <p>N/A</p>
+                <p>N/A</p>
+                <p>N/A</p>
+                <p>Saturday 3:00pm</p>
+                <p>Saturday 3:00pm</p>
+            </div>
+            <div class="column">
+                <!-- Romantic Comedy Movie -->
+                <img src="movie_icons/TheBigSick.jpg" alt="The Big Sick"/>
+                <h2>The Big Sick</h2>
+                <h3>Showing:</h3>
+                <p>Monday 9:00pm</p>
+                <p>Tuesday 9:00pm</p>
+                <p>Wednesday 1:00pm</p>
+                <p>Thursday 1:00pm</p>
+                <p>Friday 1:00pm</p>
+                <p>Saturday 6:00pm</p>
+                <p>Saturday 6:00pm</p>
+            </div>
+        </div>
+        <!--
+         <div class="container">
             <div class="column">
                 <img src="movie_icons/AClockworkOrange.jpg" alt="A Clockwork Orange"/>
                 <img src="movie_icons/ANewHope.jpg" alt="Star Wars: A New Hope"/>
@@ -55,28 +111,29 @@
                 <img src="movie_icons/PulpFiction.jpg" alt="Pulp Fiction">
             </div>
         </div>
+         -->
     </div>
     <div id="centre" class="form">
         <h2>Book Now</h2>
         <br>
-        <form method="post" action="https://titan.csit.rmit.edu.au/~e54061/wp/silverado-test.php">
+        <form method='post' action="https://titan.csit.rmit.edu.au/~e54061/wp/silverado-test.php">
             <fieldset><legend>Booking Form</legend>
-                <p><label>Movie</label><select name="TBA"></select></p>
-                <p><label>Session</label><select name="TBA"></select></p>
+                <p><label>Movie</label><select name=TBA></select></p>
+                <p><label>Session</label><select name=TBA></select></p>
                 <fieldset><legend>Seats</legend>
                     <fieldset><legend>Standard</legend>
-                        <p><label>Adult</label><select name="TBA"></select></p>
-                        <p><label>Concession</label><select name="TBA"></select></p>
-                        <p><label>Child</label><select name="TBA"></select></p>
+                        <p><label>Adult</label><select name=TBA></select></p>
+                        <p><label>Concession</label><select name=TBA></select></p>
+                        <p><label>Child</label><select name=TBA></select></p>
                     </fieldset>
                     <fieldset><legend>First Class</legend>
-                        <p><label>Adult</label><select name="TBA"></select></p>
-                        <p><label>Child</label><select name="TBA"></select></p>
+                        <p><label>Adult</label><select name=TBA></select></p>
+                        <p><label>Child</label><select name=TBA></select></p>
                     </fieldset>
                     <fieldset><legend>Bean Bags</legend>
-                        <p><label>Adult</label><select name="TBA"></select></p>
-                        <p><label>Family</label><select name="TBA"></select></p>
-                        <p><label>Child</label><select name="TBA"></select></p>
+                        <p><label>Adult</label><select name=TBA></select></p>
+                        <p><label>Family</label><select name=TBA></select></p>
+                        <p><label>Child</label><select name=TBA></select></p>
                     </fieldset>
                 </fieldset>
                 <p><button>Book</button></p>
